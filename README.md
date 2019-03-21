@@ -1,2 +1,2 @@
 # unsplash
-React component to use unsplash images in Alva
+React component to use Unsplash images in Alva protoypes

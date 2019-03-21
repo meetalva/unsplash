@@ -1,0 +1,5 @@
+node_modules
+lib
+components.bundle.js*
+.tmp
+.DS_Store

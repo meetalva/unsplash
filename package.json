@@ -1,0 +1,42 @@
+{
+  "name": "@meetalva/unsplash",
+  "version": "1.0.0",
+  "description": "Use unsplash images in your prototype",
+  "alva": {
+    "name": "Unsplash",
+    "color": "#000000",
+    "image": "https://media.meetalva.io/library/video-player/image.svg"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build:watch": "tsc -w",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetalva/unsplash.git"
+  },
+  "author": {
+    "email": "hey@meetalva.io",
+    "name": "Meet Alva Team",
+    "url": "https://meetalva.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meetalva/unsplash/issues"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.2",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "@types/react": "^16.4.14",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "tslib": "^1.7.0"
+  }
+}
