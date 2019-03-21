@@ -4,7 +4,7 @@ export interface UnsplashProps {
 
    /**
    * @name Keyword
-   * @default water
+   * @default hello
    * @description New random photo with each reload
    * @group Unspash Photo
    * */
@@ -20,18 +20,18 @@ export interface UnsplashProps {
 
    /**
    * @name Width
-   * @default 100vw
+   * @default 640px
    * @group Sizing & Positioning
    * */
   width?: string;
 
   /**
    * @name Height
-   * @default 100vh
+   * @default 480px
    * @group Sizing & Positioning
    * @control ButtonGroup
    * */
-  heigth?: string;
+  height?: string;
 
   /**
    * @name Horizontal
@@ -39,7 +39,7 @@ export interface UnsplashProps {
    * @group Sizing & Positioning
    * @control ButtonGroup
    * */
-  BackgroundPositionX?: string;
+  BackgroundPositionX?: BackgroundPositionX;
 
   /**
    * @name Vertical
@@ -47,7 +47,7 @@ export interface UnsplashProps {
    * @group Sizing & Positioning
    * @control ButtonGroup
    * */
-  BackgroundPositionY?: string;
+  BackgroundPositionY?: BackgroundPositionY;
 }
 
 export enum BackgroundPositionX {
@@ -83,7 +83,7 @@ export const Unsplash: React.SFC<UnsplashProps> = props => {
       backgroundPositionY: props.BackgroundPositionY,
       backgroundRepeat: 'no-repeat',
       width: props.width,
-      height: props.heigth,
+      height: props.height,
     }}>
     </div>
   );
