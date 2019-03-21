@@ -4,16 +4,16 @@ export interface UnsplashProps {
 
    /**
    * @name Keyword
-   * @default hello
+   * @default cat
    * @description New random photo with each reload
-   * @group Unspash Photo
+   * @group Unsplash Photo
    * */
   keyword?: string;
   
   /**
    * @name Photo ID
    * @description Load a specific Unsplash photo
-   * @group Unspash Photo
+   * @group Unsplash Photo
    * */
   photoId?: string;
 
@@ -69,7 +69,7 @@ export enum BackgroundPositionY {
 }
 
 /** 
- * @name Unsplash Photos
+ * @name Unsplash Photo
  * @icon Image
  */
 export const Unsplash: React.SFC<UnsplashProps> = props => {

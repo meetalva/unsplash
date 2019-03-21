@@ -1,11 +1,11 @@
 {
   "name": "@meetalva/unsplash",
-  "version": "1.0.2",
-  "description": "Use unsplash images in your prototype",
+  "version": "1.0.3",
+  "description": "Use Unsplash images in your prototype",
   "alva": {
     "name": "Unsplash",
-    "color": "#000000",
-    "image": "https://media.meetalva.io/library/video-player/image.svg"
+    "color": "#1E2024",
+    "image": "https://media.meetalva.io/library/unsplash/image.jpg"
   },
   "main": "lib/index.js",
   "files": [
