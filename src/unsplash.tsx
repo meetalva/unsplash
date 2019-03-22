@@ -20,14 +20,14 @@ export interface UnsplashProps {
 
    /**
    * @name Width
-   * @default 640px
+   * @default 480px
    * @group Sizing & Positioning
    * */
   width?: string;
 
   /**
    * @name Height
-   * @default 480px
+   * @default 320px
    * @group Sizing & Positioning
    * @control ButtonGroup
    * */
@@ -35,7 +35,7 @@ export interface UnsplashProps {
 
   /**
    * @name Horizontal
-   * @default center
+   * @default Center
    * @group Sizing & Positioning
    * @control ButtonGroup
    * */
@@ -43,7 +43,7 @@ export interface UnsplashProps {
 
   /**
    * @name Vertical
-   * @default center
+   * @default Center
    * @group Sizing & Positioning
    * @control ButtonGroup
    * */

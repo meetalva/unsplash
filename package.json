@@ -1,7 +1,7 @@
 {
   "name": "@meetalva/unsplash",
-  "version": "1.0.4",
-  "description": "Use Unsplash images in your prototype",
+  "version": "1.0.5",
+  "description": "Find beautiful, free photos by keyword or id",
   "alva": {
     "name": "Unsplash",
     "color": "#9FB8CB",
