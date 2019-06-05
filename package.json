@@ -1,6 +1,6 @@
 {
   "name": "@meetalva/unsplash",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Find beautiful, free photos by keyword or id",
   "alva": {
     "name": "Unsplash",
@@ -29,14 +29,14 @@
     "url": "https://github.com/meetalva/unsplash/issues"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.2",
-    "typescript": "^3.0.3"
+    "semantic-release": "^15.13.12",
+    "typescript": "^3.5.1"
   },
   "dependencies": {
-    "@types/node": "^8.0.53",
-    "@types/react": "^16.4.14",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "@types/node": "^12.0.4",
+    "@types/react": "^16.8.19",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "tslib": "^1.7.0"
   }
 }
